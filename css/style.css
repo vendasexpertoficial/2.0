@@ -987,3 +987,24 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--gold);
 }
+/* === ESTILO PARA DEIXAR A FRASE "DESÇA..." MAIS DESTACADA === */
+.hero-direction {
+    color: #ffffff !important;           /* Branco puro e forte */
+    font-weight: 900;                    /* O mais forte possível */
+    font-size: 1.45rem;                  /* Aumentei um pouco o tamanho */
+    text-transform: uppercase;           /* Tudo em maiúsculo */
+    letter-spacing: 1px;                 /* Espaçamento entre letras */
+    text-align: center;
+    margin: 35px 0 25px 0;
+    line-height: 1.35;
+    
+    /* Sombra para destacar ainda mais no fundo escuro */
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.9),
+                 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Se quiser deixar ainda mais forte */
+.hero-direction strong {
+    color: #ffffff;
+    font-weight: 900;
+}
