@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VENDAS EXPERT 2.0 — Escolha Seu Agente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================
+       BARRA FIXA DE URGÊNCIA
+  ============================= -->
+  <div class="urgency-bar" id="urgencyBar">
+    <div class="urgency-inner">
+      <span class="urgency-icon">⚠️</span>
+      <span class="urgency-text">Oferta especial disponível por tempo limitado</span>
+      <div class="timer-wrap">
+        <span class="timer-label">Encerra em:</span>
+        <span class="timer" id="countdown">08:00</span>
+      </div>
+      <!-- <span class="urgency-sub">Garanta seu acesso antes que o tempo acabe</span> -->
+    </div>
+  </div>
+
+  <!-- ============================
+       HEADER / LOGO
+  ============================= -->
+  <header class="site-header">
+    <div class="logo-wrap">
+      <span class="logo-text">VENDAS <span class="logo-highlight">EXPERT</span> <span class="logo-version">2.0</span></span>
+    </div>
+  </header>
+
+  <!-- ============================
+       HERO SECTION
+  ============================= -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-img-wrap">
+      <img src="images/capa.png" alt="Vendas Expert 2.0" class="hero-img" />
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-bolt"></i> O sistema que fecha vendas por você
+      </div>
+      <h1 class="hero-title">
+        Quantas vendas você já perdeu por<br />
+        <span class="gold">não saber o que responder?</span>
+      </h1>
+      <p class="hero-sub">Enquanto você pensa… <strong>outro vendedor fecha o cliente.</strong></p>
+      <div class="hero-emotional">
+        <p>Não é falta de cliente.<br />É falta da <span class="gold">resposta certa no momento certo.</span></p>
+      </div>
+      <p class="hero-direction">Desça e escolha o agente ideal para o seu tipo de venda.</p>
+      <a href="#agentes" class="btn-hero">
+        <i class="fas fa-arrow-down"></i> Ver Agentes
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================
+       IDENTIFICAÇÃO — DOR REAL
+  ============================= -->
+  <section class="pain-section">
+    <div class="container">
+      <h2 class="section-title">Você já viveu alguma dessas situações?</h2>
+      <div class="pain-cards">
+        <div class="pain-card">
+          <div class="pain-quote">"Tá caro"</div>
+          <div class="pain-reaction">→ <span>você trava.</span></div>
+        </div>
+        <div class="pain-card">
+          <div class="pain-quote">"Vou pensar"</div>
+          <div class="pain-reaction">→ <span>o cliente desaparece.</span></div>
+        </div>
+        <div class="pain-card">
+          <div class="pain-quote">"Vi mais barato"</div>
+          <div class="pain-reaction">→ <span>você perde a venda.</span></div>
+        </div>
+      </div>
+      <div class="pain-conclusion">
+        <i class="fas fa-exclamation-triangle gold"></i>
+        Se você já passou por isso…<br />
+        <strong>você está perdendo dinheiro todos os dias.</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TRANSIÇÃO
+  ============================= -->
+  <section class="transition-section">
+    <div class="container">
+      <div class="transition-line"></div>
+      <p class="transition-text">
+        A diferença entre quem <span class="gold">vende</span> e quem <span class="red-text">perde</span><br />
+        está em uma única coisa:
+      </p>
+      <p class="transition-highlight">saber o que dizer.</p>
+      <div class="transition-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================
+       GATILHO DA ESCOLHA
+  ============================= -->
+  <section class="choice-section">
+    <div class="container">
+      <h2 class="section-title">Escolha o agente ideal para o seu tipo de venda</h2>
+      <p class="choice-text">
+        Você não precisa de tudo.<br />
+        Você só precisa da <span class="gold">ferramenta certa para o seu mercado.</span>
+      </p>
+      <p class="choice-reflection">Qual desses representa o seu dia a dia?</p>
+      <div class="choice-cta">
+        <i class="fas fa-hand-point-down gold"></i>
+        <span>Selecione o seu agente abaixo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       AGENTES
+  ============================= -->
+  <section class="agents-section" id="agentes">
+    <div class="container">
+      <div class="agents-grid">
+
+        <!-- AGENTE 1: Ricardo Martins -->
+        <div class="agent-card" data-agent="lucas">
+          <div class="agent-card-inner">
+            <div class="agent-glow"></div>
+            <div class="agent-number">Ricardo Martins</div>
+            <div class="agent-img-wrap">
+              <img src="https://raw.githubusercontent.com/gabriel07042006pal-spec/imgs/main/imgimobiliaria.jpg" alt="Lucas Montenegro" class="agent-img" />
+              <div class="agent-img-overlay"></div>
+            </div>
+            <div class="agent-info">
+              <h3 class="agent-name" style="color: #FFCC00; font-size: 28px; font-weight: 700; text-shadow: 0 0 12px rgba(255, 204, 0, 0.8); margin-bottom: 16px; line-height: 1.2;">
+    ESPECIALISTA EM FECHAMENTO IMOBILIÁRIO
+  </h3>
+
+  <!-- Descrição em letra menor e branca -->
+  <p style="color: #FFFFFF; font-size: 15.5px; line-height: 1.45; margin-bottom: 18px;">
+    É o agente que domina respostas estratégicas para objeções no mercado imobiliário, ajudando você a conduzir clientes indecisos, manter o interesse ativo e transformar conversas em visitas, propostas e contratos fechados com muito mais segurança e autoridade.
+  </p>
+  <p style="color: #FFCC00; font-size: 17px; font-weight: 700; line-height: 1.3;">
+    Nunca mais perca um cliente por não saber o que responder.
+  </p>
+
+  <div class="agent-divider"></div>
+</div>
+            <a href="SEU_LINK_CHECKOUT_LUCAS_AQUI" class="btn-agent" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-lock-open"></i> Quero Este Agente
+            </a>
+          </div>
+        </div>
+
+        <!-- AGENTE 2: Rick Chesther -->
+        <div class="agent-card" data-agent="caio">
+          <div class="agent-card-inner">
+            <div class="agent-glow"></div>
+            <div class="agent-number">Rick Chesther</div>
+            <div class="agent-img-wrap">
+              <img src="https://raw.githubusercontent.com/gabriel07042006pal-spec/imgs/main/imgfinanceiro.png" alt="Caio Ventura" class="agent-img" />
+              <div class="agent-img-overlay"></div>
+            </div>
+            <div class="agent-info">
+              <h3 class="agent-name" style="color: #FFCC00; font-size: 28px; font-weight: 700; text-shadow: 0 0 12px rgba(255, 204, 0, 0.8); margin-bottom: 16px; line-height: 1.2;">
+    AGENTE DE FECHAMENTO
+EMPRÉSTIMOS & CONSÓRCIO
+  </h3>
+
+  <!-- Descrição em letra menor e branca -->
+  <p style="color: #FFFFFF; font-size: 15.5px; line-height: 1.45; margin-bottom: 18px;">
+    Tenha em mãos as melhores respostas para contornar objeções, manter a negociação viva e fechar muito mais contratos de Empréstimo e Consórcio.
+  </p>
+  <p style="color: #FFCC00; font-size: 17px; font-weight: 700; line-height: 1.3;">
+    DOMINE AS OBJEÇÕES. FECHE MAIS CONTRATOS.
+  </p>
+
+  <div class="agent-divider"></div>
+</div>
+            <a href="SEU_LINK_CHECKOUT_CAIO_AQUI" class="btn-agent" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-lock-open"></i> Quero Este Agente
+            </a>
+          </div>
+        </div>
+
+        <!-- AGENTE 3: André Portugal -->
+        <div class="agent-card" data-agent="rafael">
+          <div class="agent-card-inner">
+            <div class="agent-glow"></div>
+            <div class="agent-number">André Portugal</div>
+            <div class="agent-img-wrap">
+              <img src="https://raw.githubusercontent.com/gabriel07042006pal-spec/imgs/main/imgconcessionaria.jpg" alt="Rafael Mendonça" class="agent-img" />
+              <div class="agent-img-overlay"></div>
+            </div>
+            <div class="agent-info">
+              <h3 class="agent-name" style="color: #FFCC00; font-size: 28px; font-weight: 700; text-shadow: 0 0 12px rgba(255, 204, 0, 0.8); margin-bottom: 16px; line-height: 1.2;">
+    AGENTE DE FECHAMENTO
+AUTOMOTIVO
+  </h3>
+
+  <!-- Descrição em letra menor e branca -->
+  <p style="color: #FFFFFF; font-size: 15.5px; line-height: 1.45; margin-bottom: 18px;">
+    Tenha em mãos as melhores respostas para contornar objeções, manter a negociação viva e fechar muito mais vendas de carros/motos novos e seminovos.
+  </p>
+  <p style="color: #FFCC00; font-size: 17px; font-weight: 700; line-height: 1.3;">
+    DOMINE AS OBJEÇÕES. FECHE MAIS VENDAS DE AUTOMÓVEIS.
+  </p>
+
+  <div class="agent-divider"></div>
+</div>
+            <a href="SEU_LINK_CHECKOUT_RAFAEL_AQUI" class="btn-agent" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-lock-open"></i> Quero Este Agente
+            </a>
+          </div>
+        </div>
+
+        <!-- AGENTE 4: Eng. Guilherme Guerra -->
+        <div class="agent-card" data-agent="victor">
+          <div class="agent-card-inner">
+            <div class="agent-glow"></div>
+            <div class="agent-number">Eng. Guilherme Guerra</div>
+            <div class="agent-img-wrap">
+              <img src="https://raw.githubusercontent.com/gabriel07042006pal-spec/imgs/main/imgengenheiro.jpg" alt="Eng. Victor Almeida" class="agent-img" />
+              <div class="agent-img-overlay"></div>
+            </div>
+            <div class="agent-info">
+              <h3 class="agent-name" style="color: #FFCC00; font-size: 28px; font-weight: 700; text-shadow: 0 0 12px rgba(255, 204, 0, 0.8); margin-bottom: 16px; line-height: 1.2;">
+    ESPECIALISTA EM PROJETOS E ENGENHARIA
+  </h3>
+
+  <!-- Descrição em letra menor e branca -->
+  <p style="color: #FFFFFF; font-size: 15.5px; line-height: 1.45; margin-bottom: 18px;">
+    É o agente engenheiro que domina a elaboração de projetos executivos, resolve objeções técnicas com clareza e transforma ideias em projetos aprovados, orçados e executados com excelência, segurança e dentro do prazo.
+  </p>
+  <p style="color: #FFCC00; font-size: 17px; font-weight: 700; line-height: 1.3;">
+    Nunca mais perca um projeto por falta de respostas técnicas assertivas.
+  </p>        
+            </div>
+            <a href="SEU_LINK..." class="btn-agent" style="margin-top: 40px;">
+    <i class="fas fa-lock-open"></i> QUERO ESTE AGENTE
+</a>
+          </div>
+        </div>
+
+      </div><!-- /.agents-grid -->
+
+      <!-- GATILHO FINAL -->
+      <div class="final-trigger">
+        <p>
+          <i class="fas fa-hourglass-half gold"></i>
+          Escolha agora… ou continue perdendo vendas por não saber o que responder.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       PROVA SOCIAL
+  ============================= -->
+  <section class="social-proof">
+    <div class="container">
+      <div class="proof-wrap">
+        <div class="proof-stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="proof-text">
+          Centenas de vendedores já estão vendo resultado<br />
+          <strong>nas primeiras conversas.</strong>
+        </p>
+        <div class="proof-badges">
+          <div class="proof-badge"><i class="fas fa-users"></i> Comunidade ativa</div>
+          <div class="proof-badge"><i class="fas fa-chart-line"></i> Resultados reais</div>
+          <div class="proof-badge"><i class="fas fa-shield-alt"></i> Acesso imediato</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       QUEBRA DE OBJEÇÃO
+  ============================= -->
+  <section class="objection-section">
+    <div class="container">
+      <div class="objection-wrap">
+        <div class="objection-icon"><i class="fas fa-brain"></i></div>
+        <h2 class="objection-title">Você não precisa ser um expert.</h2>
+        <p class="objection-text">
+          Você só precisa <span class="gold">saber o que dizer.</span>
+        </p>
+        <p class="objection-sub">
+          E é exatamente isso que cada agente entrega —<br />
+          a resposta certa, na hora certa, para fechar a venda.
+        </p>
+        <a href="#agentes" class="btn-objection">
+          <i class="fas fa-arrow-up"></i> Escolher meu Agente agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">VENDAS <span class="gold">EXPERT</span> <span class="footer-version">2.0</span></div>
+      <p class="footer-copy">&copy; 2025 Vendas Expert 2.0 — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
